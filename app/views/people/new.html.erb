@@ -1,0 +1,9 @@
+<%= javascript_pack_tag 'people'%>
+
+<div class="people_new">
+<h1>New Person</h1>
+
+
+<%= render 'form', person: @person %>
+
+<%= link_to 'Back', people_path %>
