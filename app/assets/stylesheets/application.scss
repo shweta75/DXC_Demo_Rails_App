@@ -1,0 +1,63 @@
+@import "bootstrap";
+
+.header_container{
+  text-align: right;
+  margin-top: 10px;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.footer_hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 140em 0 0 0;
+  padding: 0;
+}
+
+.stud_list{
+  text-align: center;
+
+}
+
+.sign_up{
+  text-align: center;
+}
+
+.container_hr{
+  text-align: center;
+
+}
+
+.card{
+    margin: 0 auto; 
+    // float: none; 
+    margin-bottom: 10px;
+
+}
+
+.new_stud{
+  text-align: center;
+}
+
+.stud_show{
+  text-align: center;
+
+}
+
+.stud_edit{
+  text-align: center;
+
+}
+
+.signin-container{
+  display: inline-block
+}
