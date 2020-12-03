@@ -25,13 +25,24 @@ gem 'omniauth-google-oauth2'
 gem 'omniauth-linkedin-oauth2'
 gem 'omniauth-twitter'
 gem 'omniauth-github'
+gem 'omniauth-instagram'
+
 gem 'omniauth-microsoft-office365'
 gem 'dotenv'
 gem 'sidekiq'
 gem 'activerecord-session_store'
 gem 'roo'
-#gem 'mysql2'
+# gem 'mysql2'
 gem 'rails_12factor'
+gem 'rubyzip'
+gem 'axlsx'
+gem 'caxlsx_rails'
+gem 'prawn'
+gem 'prawn-table'
+
+gem 'rails-i18n'   #For diff languages 
+
+gem 'carrierwave'  #For adding image
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password

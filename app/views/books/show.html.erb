@@ -1,23 +1,23 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong><%= t('forms.isbn')%>:</strong>
+  <%= @book.isbn %>
+</p>
+
+<p>
+  <strong><%= t('forms.title')%>:</strong>
   <%= @book.title %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong><%= t('forms.description')%>:</strong>
   <%= @book.description %>
 </p>
 
 <p>
-  <strong>Author:</strong>
+  <strong><%= t('forms.author')%>:</strong>
   <%= @book.author %>
-</p>
-
-<p>
-  <strong>Is borrowed:</strong>
-  <%= @book.is_borrowed %>
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |

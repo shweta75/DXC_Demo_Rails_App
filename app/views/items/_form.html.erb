@@ -11,14 +11,25 @@
     </div>
   <% end %>
 
+
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.label t('items.forms.isbn') %>
+    <%= form.number_field :isbn %>
   </div>
 
   <div class="field">
-    <%= form.label :quantity %>
-    <%= form.number_field :quantity %>
+    <%= form.label t('items.forms.title') %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label t('items.forms.description') %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label t('items.forms.author') %>
+    <%= form.text_field :author %>
   </div>
 
   <div class="actions">

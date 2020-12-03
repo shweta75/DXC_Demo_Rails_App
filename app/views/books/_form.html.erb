@@ -12,23 +12,23 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %>
+    <%= form.label t('items.forms.isbn') %>
+    <%= form.number_field :isbn %>
+  </div>
+
+  <div class="field">
+    <%= form.label t('items.forms.title') %>
     <%= form.text_field :title %>
   </div>
 
   <div class="field">
-    <%= form.label :description %>
+    <%= form.label t('items.forms.description') %>
     <%= form.text_field :description %>
   </div>
 
   <div class="field">
-    <%= form.label :author %>
+    <%= form.label t('items.forms.author') %>
     <%= form.text_field :author %>
-  </div>
-
-  <div class="field">
-    <%= form.label :is_borrowed %>
-    <%= form.check_box :is_borrowed %>
   </div>
 
   <div class="actions">

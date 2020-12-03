@@ -37,11 +37,17 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     sign_in_with "Microsoft"
   end
 
-  def github
-    sign_in_with "Github"
-  end
+  # def instagram
+  #   sign_in_with "Instagram"
+  # end
+
 
   def developer
     sign_in_with "Developer"
   end
+  def github
+    sign_in_with "Github"
+  end
+
+
 end

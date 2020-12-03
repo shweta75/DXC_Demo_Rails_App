@@ -317,8 +317,14 @@ Devise.setup do |config|
       config.omniauth :microsoft_office365, "c3897da7-4c30-4487-81ea-ec5e205dd1db", "xpptuJKDFQ637@^nsCI48^)"
     elsif provider_name == :google_oauth2
       config.omniauth :google_oauth2, "653036561964-53493pvr9ba2deathc58l4snd7mqcc3n.apps.googleusercontent.com", "54_K7HRkZibea39mdKAb7QgL"
+    elsif provider_name == :facebook
+      config.omniauth :facebook, "370591437535939", "ffc5ed79ca3aa016e62f076d6228e810"
     elsif provider_name == :github
-      config.omniauth :github, "Iv1.921f2473a6df9484", " e4b7dcce4946fd78b995f1b2a8c48de5fc95fd17"
+      config.omniauth :github, "Iv1.921f2473a6df9484", "5e1f581de349b87e07b4266235b32832d677a9cc"
+    # elsif provider_name == :instagram
+    #   config.omniauth :instagram, "161626905684044", "9fb2485a99f07cfb6d009e38bdcc0bbe"
+    # 
+    
     end
   end
 end

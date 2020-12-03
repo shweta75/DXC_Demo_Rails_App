@@ -6,7 +6,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable, :trackable,
          :confirmable, :lockable, :timeoutable,
          :omniauthable,
-         :omniauth_providers => [:microsoft_office365, :linkedin, :google_oauth2, :github]
+         :omniauth_providers => [:microsoft_office365, :linkedin, :google_oauth2, :facebook, :github]
 
   # This method will be adding the user to database who are signing in using social media accounts.
   def self.from_omniauth(auth)

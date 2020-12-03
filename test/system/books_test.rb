@@ -16,7 +16,7 @@ class BooksTest < ApplicationSystemTestCase
 
     fill_in "Author", with: @book.author
     fill_in "Description", with: @book.description
-    check "Is borrowed" if @book.is_borrowed
+    fill_in "Isbn", with: @book.isbn
     fill_in "Title", with: @book.title
     click_on "Create Book"
 
@@ -30,7 +30,7 @@ class BooksTest < ApplicationSystemTestCase
 
     fill_in "Author", with: @book.author
     fill_in "Description", with: @book.description
-    check "Is borrowed" if @book.is_borrowed
+    fill_in "Isbn", with: @book.isbn
     fill_in "Title", with: @book.title
     click_on "Update Book"
 

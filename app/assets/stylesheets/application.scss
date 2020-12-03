@@ -25,6 +25,8 @@
 
 .stud_list{
   text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 
 }
 
@@ -41,6 +43,8 @@
     margin: 0 auto; 
     // float: none; 
     margin-bottom: 10px;
+    opacity: .9;
+    height: 260px;
 
 }
 
@@ -59,5 +63,43 @@
 }
 
 .signin-container{
-  display: inline-block
+  display: inline-table
+  
 }
+
+.items_table{
+  margin-top: 20px;
+}
+
+
+
+.items_list{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+mark {
+  background-color:  #f7b882;
+  color: black;
+}
+
+
+.books_list{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+.msg{
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.btn-primary { background-color: #0c0b0a; }
+
+// .body {
+//   background: red;
+// }

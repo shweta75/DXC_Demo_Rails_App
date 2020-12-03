@@ -14,8 +14,10 @@ class ItemsTest < ApplicationSystemTestCase
     visit items_url
     click_on "New Item"
 
-    fill_in "Name", with: @item.name
-    fill_in "Quantity", with: @item.quantity
+    fill_in "Author", with: @item.author
+    fill_in "Description", with: @item.description
+    fill_in "Isbn", with: @item.isbn
+    fill_in "Title", with: @item.title
     click_on "Create Item"
 
     assert_text "Item was successfully created"
@@ -26,8 +28,10 @@ class ItemsTest < ApplicationSystemTestCase
     visit items_url
     click_on "Edit", match: :first
 
-    fill_in "Name", with: @item.name
-    fill_in "Quantity", with: @item.quantity
+    fill_in "Author", with: @item.author
+    fill_in "Description", with: @item.description
+    fill_in "Isbn", with: @item.isbn
+    fill_in "Title", with: @item.title
     click_on "Update Item"
 
     assert_text "Item was successfully updated"
